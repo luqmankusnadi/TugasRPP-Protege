@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="tugas-protege" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="com.rpp" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/build/classes/main" />
+    <output-test url="file://$MODULE_DIR$/build/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Gradle: net.sourceforge.owlapi:jfact:1.2.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/jfact/1.2.2/84c472eb8f79d67615d8ad989e3adf778b39f871/jfact-1.2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/jfact/1.2.2/1ad8a688d8d23727e4a62ff9c9bf596d162ff22f/jfact-1.2.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: net.sourceforge.owlapi:owlapi-distribution:3.5.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-distribution/3.5.0/df6ccd32cf825a4bc81ac957c8ebdde651b23f56/owlapi-distribution-3.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-distribution/3.5.0/f2f4ce0dc1f6ce7ba8740389f33e0ff61f1d8295/owlapi-distribution-3.5.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: com.hermit-reasoner:org.semanticweb.hermit:1.3.8.4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hermit-reasoner/org.semanticweb.hermit/1.3.8.4/1dbdcd7d6cea63867b6ed4d88e5c36c211e16340/org.semanticweb.hermit-1.3.8.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hermit-reasoner/org.semanticweb.hermit/1.3.8.4/8561cbe7e4a65dbe8eb0e0d2ab77ca528fcec454/org.semanticweb.hermit-1.3.8.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: joda-time:joda-time:2.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.3/56498efd17752898cfcc3868c1b6211a07b12b8f/joda-time-2.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.3/ecd8588d8ce0963eb443de31d5fea29e3205f160/joda-time-2.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: net.sourceforge.owlapi:owlapi-apibinding:3.5.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-apibinding/3.5.0/4df1fa40f8a8146f881f295b08e9da8099e8303a/owlapi-apibinding-3.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-apibinding/3.5.0/a4af8da03a70ef8ee5a9c3407edd70b6174e38a5/owlapi-apibinding-3.5.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: commons-logging:commons-logging:1.1.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: net.sourceforge.owlapi:owlapi-tools:3.5.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-tools/3.5.0/507dd117ae53424bfd6c2caacefb7678db05d191/owlapi-tools-3.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-tools/3.5.0/94c3de43c920adf4a6693fb4c1a5c3bb1a23bf5f/owlapi-tools-3.5.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.ws.commons.axiom:axiom-api:1.2.14">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ws.commons.axiom/axiom-api/1.2.14/5b11407fb3c02556e7c86a0922f8f8105afb3e4d/axiom-api-1.2.14.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ws.commons.axiom/axiom-api/1.2.14/ccd6ed5247071b1be93e3571371000fc5e5f6f7/axiom-api-1.2.14-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: net.sourceforge.owlapi:owlapi-impl:3.5.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-impl/3.5.0/cce2424e71ba478f3f4535a02fac6fb7e6850be3/owlapi-impl-3.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-impl/3.5.0/821ee1d100c34a538d3305b908e84233ac9416aa/owlapi-impl-3.5.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.ws.commons.axiom:axiom-c14n:1.2.14">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ws.commons.axiom/axiom-c14n/1.2.14/3924027b646da0cd736d839ab74c4cb7f77bbf9c/axiom-c14n-1.2.14.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ws.commons.axiom/axiom-c14n/1.2.14/580b2fc29ec41c6dc04c1913e0d88d07ae8f5ab2/axiom-c14n-1.2.14-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: net.sourceforge.owlapi:owlapi-parsers:3.5.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-parsers/3.5.0/dfc17599b717cd90fd38342f9997c20c5c28306b/owlapi-parsers-3.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-parsers/3.5.0/f3a495fc0ca6ba46701c46c53b67f14488af3bdc/owlapi-parsers-3.5.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.ws.commons.axiom:axiom-impl:1.2.14">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ws.commons.axiom/axiom-impl/1.2.14/c4769c96ceee2893a1a95164e6a9b4d669917c8c/axiom-impl-1.2.14.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ws.commons.axiom/axiom-impl/1.2.14/c24d810131f6991e623af1227245bad56007d96f/axiom-impl-1.2.14-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.ws.commons.axiom:axiom-dom:1.2.14">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ws.commons.axiom/axiom-dom/1.2.14/e56bb2b1e532967818cfcb0c3d17922380db24c2/axiom-dom-1.2.14.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ws.commons.axiom/axiom-dom/1.2.14/ec7e5d7014b524f517e52ee6ffe53fc2a8e2cdd8/axiom-dom-1.2.14-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: dk.brics.automaton:automaton:1.11-8">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dk.brics.automaton/automaton/1.11-8/6ebfa65eb431ff4b715a23be7a750cbc4cc96d0f/automaton-1.11-8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dk.brics.automaton/automaton/1.11-8/6bc89a2a9c9c5524aa275b572c0fd3699ff7a5be/automaton-1.11-8-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.geronimo.specs:geronimo-activation_1.1_spec:1.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/f15af1b53fba7f23ce5e9de4fb57a88585aa9eee/geronimo-activation_1.1_spec-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/64ab5ccd9d6b0efffafe3bea6134edfdb062b842/geronimo-activation_1.1_spec-1.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: net.sourceforge.owlapi:owlapi-oboformat:3.5.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-oboformat/3.5.0/26f9bf52c4fa90ca360a3134b0936964ccea660c/owlapi-oboformat-3.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-oboformat/3.5.0/29f7b636a803515150baa7f0dea9b3d42925c06/owlapi-oboformat-3.5.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.geronimo.specs:geronimo-javamail_1.4_spec:1.7.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-javamail_1.4_spec/1.7.1/43ad4090b1a07a11c82ac40c01fc4e2fbad20013/geronimo-javamail_1.4_spec-1.7.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-javamail_1.4_spec/1.7.1/8c671a08f1a98697e26419b69451430e153193c0/geronimo-javamail_1.4_spec-1.7.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: net.sourceforge.owlapi:owlapi-contract:3.5.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-contract/3.5.0/67dc06da977eeac8a2bae8896d70a4c5bb3381a8/owlapi-contract-3.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-contract/3.5.0/38b3855d073c9874f61ce2703c2d484a41844d87/owlapi-contract-3.5.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.felix:org.osgi.core:1.4.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.felix/org.osgi.core/1.4.0/fc7e9bfe0ca47736a5ed2ffcffe8b07c977c4444/org.osgi.core-1.4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.felix/org.osgi.core/1.4.0/b7044ca7ab11fda92caae18be0940ee2047a9d62/org.osgi.core-1.4.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: jaxen:jaxen:1.1.4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaxen/jaxen/1.1.4/8c06a96cf9150ded75c28b7087ed821a93270c41/jaxen-1.1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jaxen/jaxen/1.1.4/1d4014377e8ac4a8f5631d2607e4a633ca1f32b5/jaxen-1.1.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: net.sourceforge.owlapi:owlapi-api:3.5.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-api/3.5.0/e2df662c2f6c4b1a8f69c5b62361a173618f4088/owlapi-api-3.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-api/3.5.0/fe3bbd1eb97002a5cebe09f58e630ac8b3b85b00/owlapi-api-3.5.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-stax-api_1.0_spec/1.0.1/1c171093a8b43aa550c6050ac441abe713ebb4f2/geronimo-stax-api_1.0_spec-1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.geronimo.specs/geronimo-stax-api_1.0_spec/1.0.1/a4e4ef57ac140ab12a570e5c5b91571ddaaf9dcd/geronimo-stax-api_1.0_spec-1.0.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.apache.james:apache-mime4j-core:0.7.2">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-core/0.7.2/a81264fe0265ebe8fd1d8128aad06dc320de6eef/apache-mime4j-core-0.7.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.james/apache-mime4j-core/0.7.2/df2e64024dbe47fa357cbf4f0e15daa28dd7c14b/apache-mime4j-core-0.7.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.codehaus.woodstox:woodstox-core-asl:4.1.4">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/woodstox-core-asl/4.1.4/79b82e7dfd5c24b228ea56456d6adce225259ec4/woodstox-core-asl-4.1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/woodstox-core-asl/4.1.4/a363593119d1ba7020996a8469d8dc548eb57982/woodstox-core-asl-4.1.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.codehaus.woodstox:stax2-api:3.1.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.1/466eab062e9d1a3ce2c4631b6d09b5e5c0cbd1b/stax2-api-3.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.1/cb342dff0332b73ca4db2ebc395e7f8aaf1964ad/stax2-api-3.1.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
