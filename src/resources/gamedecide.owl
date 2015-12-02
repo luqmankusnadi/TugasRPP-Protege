@@ -1,0 +1,1332 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/asus/ontologies/2015/10/untitled-ontology-13"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/asus/ontologies/2015/10/untitled-ontology-13">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action_Adventure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adventure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dota2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DragonNest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DynastyWarrior_6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DynastyWarrior_8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GTAV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GTA_SanAndreas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GTA_ViceCity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microsoft_Windows"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultiPlayer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultiPlayerOnline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeedForSpeed2015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeedForSpeed_Shift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OS_X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PS2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PS3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PS4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Role_Playing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shooter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Simulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SinglePlayer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SinglePlayerOnline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkyForge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video_Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#XBOX_360"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#XBOX_One"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPlatform"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpecification"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action_Adventure"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adventure"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dota2"/>
+        <Class IRI="#Video_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dota2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Action"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dota2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#MultiPlayerOnline"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dota2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#Linux"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dota2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#Microsoft_Windows"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dota2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#OS_X"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dota2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <ObjectUnionOf>
+                <Class IRI="#Linux"/>
+                <Class IRI="#Microsoft_Windows"/>
+                <Class IRI="#OS_X"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DragonNest"/>
+        <Class IRI="#Video_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DragonNest"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Action"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DragonNest"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Role_Playing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DragonNest"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#MultiPlayerOnline"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DragonNest"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#Microsoft_Windows"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DragonNest"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <ObjectUnionOf>
+                <Class IRI="#Action"/>
+                <Class IRI="#Role_Playing"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_6"/>
+        <Class IRI="#Video_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_6"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Action"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_6"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#MultiPlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_6"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#SinglePlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_6"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_6"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_6"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#XBOX_360"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_6"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <ObjectUnionOf>
+                <Class IRI="#MultiPlayer"/>
+                <Class IRI="#SinglePlayer"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_6"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <ObjectUnionOf>
+                <Class IRI="#PS2"/>
+                <Class IRI="#PS3"/>
+                <Class IRI="#XBOX_360"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_8"/>
+        <Class IRI="#Video_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_8"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Action"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_8"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#MultiPlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_8"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#SinglePlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_8"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_8"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_8"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#XBOX_360"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_8"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#XBOX_One"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_8"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <ObjectUnionOf>
+                <Class IRI="#MultiPlayer"/>
+                <Class IRI="#SinglePlayer"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynastyWarrior_8"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <ObjectUnionOf>
+                <Class IRI="#PS3"/>
+                <Class IRI="#PS4"/>
+                <Class IRI="#XBOX_360"/>
+                <Class IRI="#XBOX_One"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTAV"/>
+        <Class IRI="#Video_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTAV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Action_Adventure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTAV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#MultiPlayerOnline"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTAV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#SinglePlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTAV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#Microsoft_Windows"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTAV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTAV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTAV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#XBOX_360"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTAV"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#XBOX_One"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTAV"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <ObjectUnionOf>
+                <Class IRI="#MultiPlayerOnline"/>
+                <Class IRI="#SinglePlayer"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTAV"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <ObjectUnionOf>
+                <Class IRI="#Microsoft_Windows"/>
+                <Class IRI="#PS3"/>
+                <Class IRI="#PS4"/>
+                <Class IRI="#XBOX_360"/>
+                <Class IRI="#XBOX_One"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_SanAndreas"/>
+        <Class IRI="#Video_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_SanAndreas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Action_Adventure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_SanAndreas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#MultiPlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_SanAndreas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#SinglePlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_SanAndreas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_SanAndreas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_SanAndreas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#XBOX_360"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_SanAndreas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#XBOX_One"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_SanAndreas"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <ObjectUnionOf>
+                <Class IRI="#MultiPlayer"/>
+                <Class IRI="#SinglePlayer"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_SanAndreas"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <ObjectUnionOf>
+                <Class IRI="#PS2"/>
+                <Class IRI="#PS3"/>
+                <Class IRI="#XBOX_360"/>
+                <Class IRI="#XBOX_One"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_ViceCity"/>
+        <Class IRI="#Video_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_ViceCity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Action_Adventure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_ViceCity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#SinglePlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_ViceCity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#Microsoft_Windows"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_ViceCity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#OS_X"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_ViceCity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GTA_ViceCity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <ObjectUnionOf>
+                <Class IRI="#Microsoft_Windows"/>
+                <Class IRI="#OS_X"/>
+                <Class IRI="#PS2"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Game"/>
+        <Class IRI="#Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genre"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Linux"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microsoft_Windows"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mode"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultiPlayer"/>
+        <Class IRI="#Mode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultiPlayerOnline"/>
+        <Class IRI="#Mode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed2015"/>
+        <Class IRI="#Video_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed2015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Sports"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed2015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#MultiPlayerOnline"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed2015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#SinglePlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed2015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#Microsoft_Windows"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed2015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed2015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#XBOX_One"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed2015"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <ObjectUnionOf>
+                <Class IRI="#MultiPlayerOnline"/>
+                <Class IRI="#SinglePlayer"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed2015"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <ObjectUnionOf>
+                <Class IRI="#Microsoft_Windows"/>
+                <Class IRI="#PS4"/>
+                <Class IRI="#XBOX_One"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+        <Class IRI="#Video_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Sports"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#MultiPlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#SinglePlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#Microsoft_Windows"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#XBOX_360"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <ObjectUnionOf>
+                <Class IRI="#Microsoft_Windows"/>
+                <Class IRI="#PS3"/>
+                <Class IRI="#XBOX_360"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Shift"/>
+        <Class IRI="#Video_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Shift"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Sports"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Shift"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#MultiPlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Shift"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#SinglePlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Shift"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#Microsoft_Windows"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Shift"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Shift"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Shift"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#XBOX_360"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Shift"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <ObjectUnionOf>
+                <Class IRI="#MultiPlayer"/>
+                <Class IRI="#SinglePlayer"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Shift"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <ObjectUnionOf>
+                <Class IRI="#Microsoft_Windows"/>
+                <Class IRI="#PS2"/>
+                <Class IRI="#PS3"/>
+                <Class IRI="#XBOX_360"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+        <Class IRI="#Video_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Sports"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#MultiPlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#SinglePlayer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#Microsoft_Windows"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#PS3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#XBOX_360"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <ObjectUnionOf>
+                <Class IRI="#MultiPlayer"/>
+                <Class IRI="#SinglePlayer"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <ObjectUnionOf>
+                <Class IRI="#Microsoft_Windows"/>
+                <Class IRI="#PS2"/>
+                <Class IRI="#PS3"/>
+                <Class IRI="#XBOX_360"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OS_X"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PS2"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PS3"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PS4"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Platform"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role_Playing"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shooter"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Simulation"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SinglePlayer"/>
+        <Class IRI="#Mode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SinglePlayerOnline"/>
+        <Class IRI="#Mode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkyForge"/>
+        <Class IRI="#Video_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkyForge"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#Role_Playing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkyForge"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMode"/>
+            <Class IRI="#MultiPlayerOnline"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkyForge"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="#Microsoft_Windows"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategy"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video_Game"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#XBOX_360"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#XBOX_One"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Dota2"/>
+        <Class IRI="#DragonNest"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dota2"/>
+        <Class IRI="#DynastyWarrior_6"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dota2"/>
+        <Class IRI="#DynastyWarrior_8"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dota2"/>
+        <Class IRI="#GTAV"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dota2"/>
+        <Class IRI="#GTA_SanAndreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dota2"/>
+        <Class IRI="#GTA_ViceCity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dota2"/>
+        <Class IRI="#NeedForSpeed2015"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dota2"/>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dota2"/>
+        <Class IRI="#NeedForSpeed_Shift"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dota2"/>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dota2"/>
+        <Class IRI="#SkyForge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DragonNest"/>
+        <Class IRI="#DynastyWarrior_6"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DragonNest"/>
+        <Class IRI="#DynastyWarrior_8"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DragonNest"/>
+        <Class IRI="#GTAV"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DragonNest"/>
+        <Class IRI="#GTA_SanAndreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DragonNest"/>
+        <Class IRI="#GTA_ViceCity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DragonNest"/>
+        <Class IRI="#NeedForSpeed2015"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DragonNest"/>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DragonNest"/>
+        <Class IRI="#NeedForSpeed_Shift"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DragonNest"/>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DragonNest"/>
+        <Class IRI="#SkyForge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_6"/>
+        <Class IRI="#DynastyWarrior_8"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_6"/>
+        <Class IRI="#GTAV"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_6"/>
+        <Class IRI="#GTA_SanAndreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_6"/>
+        <Class IRI="#GTA_ViceCity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_6"/>
+        <Class IRI="#NeedForSpeed2015"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_6"/>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_6"/>
+        <Class IRI="#NeedForSpeed_Shift"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_6"/>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_6"/>
+        <Class IRI="#SkyForge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_8"/>
+        <Class IRI="#GTAV"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_8"/>
+        <Class IRI="#GTA_SanAndreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_8"/>
+        <Class IRI="#GTA_ViceCity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_8"/>
+        <Class IRI="#NeedForSpeed2015"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_8"/>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_8"/>
+        <Class IRI="#NeedForSpeed_Shift"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_8"/>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DynastyWarrior_8"/>
+        <Class IRI="#SkyForge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTAV"/>
+        <Class IRI="#GTA_SanAndreas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTAV"/>
+        <Class IRI="#GTA_ViceCity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTAV"/>
+        <Class IRI="#NeedForSpeed2015"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTAV"/>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTAV"/>
+        <Class IRI="#NeedForSpeed_Shift"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTAV"/>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTAV"/>
+        <Class IRI="#SkyForge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTA_SanAndreas"/>
+        <Class IRI="#GTA_ViceCity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTA_SanAndreas"/>
+        <Class IRI="#NeedForSpeed2015"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTA_SanAndreas"/>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTA_SanAndreas"/>
+        <Class IRI="#NeedForSpeed_Shift"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTA_SanAndreas"/>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTA_SanAndreas"/>
+        <Class IRI="#SkyForge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTA_ViceCity"/>
+        <Class IRI="#NeedForSpeed2015"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTA_ViceCity"/>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTA_ViceCity"/>
+        <Class IRI="#NeedForSpeed_Shift"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTA_ViceCity"/>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#GTA_ViceCity"/>
+        <Class IRI="#SkyForge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Genre"/>
+        <Class IRI="#Video_Game"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mode"/>
+        <Class IRI="#Video_Game"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NeedForSpeed2015"/>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NeedForSpeed2015"/>
+        <Class IRI="#NeedForSpeed_Shift"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NeedForSpeed2015"/>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NeedForSpeed2015"/>
+        <Class IRI="#SkyForge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+        <Class IRI="#NeedForSpeed_Shift"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NeedForSpeed_MostWanted2012"/>
+        <Class IRI="#SkyForge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NeedForSpeed_Shift"/>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NeedForSpeed_Shift"/>
+        <Class IRI="#SkyForge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NeedForSpeed_Undercover"/>
+        <Class IRI="#SkyForge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Platform"/>
+        <Class IRI="#Video_Game"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGenre"/>
+        <ObjectProperty IRI="#hasSpecification"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMode"/>
+        <ObjectProperty IRI="#hasSpecification"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <ObjectProperty IRI="#hasSpecification"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSpecification"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasGenre"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasMode"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasPlatform"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasSpecification"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Video_Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMode"/>
+        <Class IRI="#Video_Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <Class IRI="#Video_Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSpecification"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMode"/>
+        <Class IRI="#Mode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <Class IRI="#Platform"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSpecification"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
