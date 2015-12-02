@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.sourceforge.owlapi:jfact:1.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/jfact/1.2.2/84c472eb8f79d67615d8ad989e3adf778b39f871/jfact-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/jfact/1.2.2/1ad8a688d8d23727e4a62ff9c9bf596d162ff22f/jfact-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

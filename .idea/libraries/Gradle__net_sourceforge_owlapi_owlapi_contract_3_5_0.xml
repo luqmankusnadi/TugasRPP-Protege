@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.sourceforge.owlapi:owlapi-contract:3.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-contract/3.5.0/67dc06da977eeac8a2bae8896d70a4c5bb3381a8/owlapi-contract-3.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sourceforge.owlapi/owlapi-contract/3.5.0/38b3855d073c9874f61ce2703c2d484a41844d87/owlapi-contract-3.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

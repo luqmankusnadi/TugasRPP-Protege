@@ -74,18 +74,9 @@ public class DLQueryPrinter {
                 sb.append("--------------------------------------------------------------------------------\n\n");
                 // Ask for the subclasses, superclasses etc. of the specified
                 // class expression. Print out the results.
-                Set<OWLClass> superClasses = dlQueryEngine.getSuperClasses(
-                        classExpression, true);
-                printEntities("SuperClasses", superClasses, sb);
-                Set<OWLClass> equivalentClasses = dlQueryEngine
-                        .getEquivalentClasses(classExpression);
-                printEntities("EquivalentClasses", equivalentClasses, sb);
                 Set<OWLClass> subClasses = dlQueryEngine.getSubClasses(classExpression,
                         true);
                 printEntities("SubClasses", subClasses, sb);
-                Set<OWLNamedIndividual> individuals = dlQueryEngine.getInstances(
-                        classExpression, true);
-                printEntities("Instances", individuals, sb);
                 System.out.println(sb.toString());
             } catch (ParserException e) {
                 System.out.println(e.getMessage());
@@ -95,12 +86,9 @@ public class DLQueryPrinter {
 
     private void printEntities(String name, Set<? extends OWLEntity> entities,
             StringBuilder sb) {
-        sb.append(name);
         int length = 50 - name.length();
-        for (int i = 0; i < length; i++) {
-            sb.append(".");
-        }
-        sb.append("\n\n");
+
+        sb.append("\n");
         if (!entities.isEmpty()) {
             for (OWLEntity entity : entities) {
                 sb.append("\t");

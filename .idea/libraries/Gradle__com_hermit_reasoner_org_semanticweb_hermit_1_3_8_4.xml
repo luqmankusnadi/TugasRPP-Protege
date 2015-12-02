@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hermit-reasoner:org.semanticweb.hermit:1.3.8.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hermit-reasoner/org.semanticweb.hermit/1.3.8.4/1dbdcd7d6cea63867b6ed4d88e5c36c211e16340/org.semanticweb.hermit-1.3.8.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hermit-reasoner/org.semanticweb.hermit/1.3.8.4/8561cbe7e4a65dbe8eb0e0d2ab77ca528fcec454/org.semanticweb.hermit-1.3.8.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
